@@ -1,0 +1,215 @@
+body {
+  background: #f2f2f2;
+}
+
+ul, section, section2 {
+  position: relative;
+  -webkit-transform: rotate(-35deg) skew(20deg, 5deg);
+          transform: rotate(-35deg) skew(20deg, 5deg);
+}
+/*Start of Nav CSS*/
+.list-item {
+  background: #000;
+  color: #575757;
+  text-align: center;
+  height: 2.5em;
+  width: 4em;
+  vertical-align: middle;
+  line-height: 2.5em;
+  border-bottom: 1px solid #060606;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  box-shadow: -2em 1.5em 0 #e1e1e1;
+  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
+  left: -15em;
+  bottom: 12em;
+}
+.list-item:hover {
+  background: #ff6e42;
+  color: #fffcfb;
+  -webkit-transform: translate(0.9em, -0.9em);
+          transform: translate(0.9em, -0.9em);
+  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
+  box-shadow: -2em 2em 0 #e1e1e1;
+}
+.list-item:hover:before, .list-item:hover:after {
+  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
+}
+.list-item:hover:before {
+  background: #b65234;
+  width: 1em;
+  top: .5em;
+  left: -1em;
+}
+.list-item:hover:after {
+  background: #b65234;
+  width: 1em;
+  bottom: -2.5em;
+  left: 1em;
+  height: 4em;
+}
+.list-item:before, .list-item:after {
+  content: '';
+  position: absolute;
+  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
+  width: .5em;
+}
+.list-item:after {
+  height: 4em;
+  background: #181818;
+  bottom: -2.25em;
+  left: 1.5em;
+  -webkit-transform: rotate(90deg) skew(0, 45deg);
+          transform: rotate(90deg) skew(0, 45deg);
+}
+.list-item:before {
+  height: 2.5em;
+  background: #121212;
+  top: .25em;
+  left: -.5em;
+  -webkit-transform: skewY(-45deg);
+          transform: skewY(-45deg);
+}
+/* Start of Paragraph CSS*/
+p {
+  background: #000;
+  color: #575757;
+  text-align: center;
+  height: 13.62em;
+  width: 19.2em;
+  vertical-align: middle;
+  line-height: 2.5em;
+  border-bottom: 1px solid #060606;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  box-shadow: -2em 1.5em 0 #e1e1e1;
+  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
+  left:7em; 
+  bottom:.5em;
+}
+p:hover {
+  background: #ff6e42;
+  color: #fffcfb;
+  -webkit-transform: translate(0.9em, -0.9em);
+          transform: translate(0.9em, -0.9em);
+  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
+  box-shadow: -2em 2em 0 #e1e1e1;
+}
+p:hover:before, p:hover:after {
+  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
+}
+p:hover:before {
+  background: #b65234;
+  width: 1em;
+  top: .5em;
+  left: -1em;
+  height: 13.62em;
+}
+p:hover:after {
+  background: #b65234;
+  width: 1em;
+  bottom: -10.1em;
+  left: 8.7em;
+  height: 19.2em;
+}
+p:before, p:after {
+  content: '';
+  position: absolute;
+  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
+  width: .5em;
+}
+p:after {
+  height: 19.2em;
+  background: #181818;
+  bottom: -9.753em;
+  left: 9.21868em;
+  -webkit-transform: rotate(90deg) skew(0, 45deg);
+          transform: rotate(90deg) skew(0, 45deg);
+}
+p:before {
+  height: 13.62em;
+  background: #121212;
+  top: .25em;
+  left: -0.52em;
+  -webkit-transform: skewY(-45deg);
+          transform: skewY(-45deg);
+}
+
+/*Start of Title CSS*/
+title {
+  background: #000;
+  color: #575757;
+  text-align: center;
+  height: 2.5em;
+  width: 19.2em;
+  vertical-align: middle;
+  line-height: 2.5em;
+  border-bottom: 1px solid #060606;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  box-shadow: -2em 1.5em 0 #e1e1e1;
+  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
+  left: -7em;
+  bottom: 25em;
+}
+title:hover {
+  background: #ff6e42;
+  color: #fffcfb;
+  -webkit-transform: translate(0.9em, -0.9em);
+          transform: translate(0.9em, -0.9em);
+  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
+  box-shadow: -2em 2em 0 #e1e1e1;
+}
+title:hover:before, title:hover:after {
+  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
+}
+title:hover:before {
+  background: #b65234;
+  width: 1em;
+  top: .5em;
+  left: -1em;
+}
+title:hover:after {
+  background: #b65234;
+  width: 1em;
+  bottom: -9.906em;
+  left: 8.8em;
+  height: 18.79em;
+}
+title:before, title:after {
+  content: '';
+  position: absolute;
+  -webkit-transition: all .25s linear;
+  transition: all .25s linear;
+  width: .5em;
+}
+title:after {
+  height: 19.2em;
+  background: #181818;
+  bottom: -9.906em;
+  left: 9.1em;
+  -webkit-transform: rotate(90deg) skew(0, 45deg);
+          transform: rotate(90deg) skew(0, 45deg);
+}
+title:before {
+  height: 2.5em;
+  background: #121212;
+  top: .25em;
+  left: -.5em;
+  -webkit-transform: skewY(-45deg);
+          transform: skewY(-45deg);
+}
