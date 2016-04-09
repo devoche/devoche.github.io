@@ -186,9 +186,9 @@ title:hover:before {
 title:hover:after {
   background: #b65234;
   width: 1em;
-  bottom: -9.906em;
-  left: 8.8em;
-  height: 18.79em;
+  bottom: -10.1em;
+  left: 8.6em;
+  height: 19.2em;
 }
 title:before, title:after {
   content: '';
@@ -212,4 +212,7 @@ title:before {
   left: -.5em;
   -webkit-transform: skewY(-45deg);
           transform: skewY(-45deg);
+}
+title {
+  color: white;
 }
